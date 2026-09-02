@@ -1,5 +1,7 @@
 # fowler-refactor-skill
 
+> 🇰🇷 [한국어 README](./README.ko.md) | [한국어 패턴 카탈로그](./references/fowler-patterns.ko.md)
+
 An agent skill that applies **Martin Fowler's refactoring catalog** to your codebase.
 
 It conducts a focused `grill-me`-style interview to understand what you want to improve, maps the relevant smells to Fowler's patterns, proposes a Before/After plan, and applies changes only after your approval — **guaranteeing zero breaking changes** to existing callers.
