@@ -16,6 +16,22 @@ npx skills@latest add dopeboy0608/fowler-refactor-skill
 
 Works with **Claude Code**, **OpenCode**, and any agent that supports the [skills.sh](https://skills.sh) format.
 
+## Uninstall
+
+```bash
+# Interactive — select from a menu
+npx skills@latest remove
+
+# Remove this skill directly
+npx skills@latest remove fowler-refactor-skill
+
+# Remove from global scope
+npx skills@latest remove --global fowler-refactor-skill
+
+# Remove from a specific agent only
+npx skills@latest remove --agent claude-code fowler-refactor-skill
+```
+
 ---
 
 ## Usage

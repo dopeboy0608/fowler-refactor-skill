@@ -16,6 +16,22 @@ npx skills@latest add dopeboy0608/fowler-refactor-skill
 
 **Claude Code**, **OpenCode** 및 [skills.sh](https://skills.sh) 형식을 지원하는 모든 에이전트에서 사용할 수 있습니다.
 
+## 제거
+
+```bash
+# 인터랙티브 — 설치된 스킬 목록에서 선택
+npx skills@latest remove
+
+# 이 스킬을 직접 지정해서 제거
+npx skills@latest remove fowler-refactor-skill
+
+# 전역(global) 범위에서 제거
+npx skills@latest remove --global fowler-refactor-skill
+
+# 특정 에이전트에서만 제거
+npx skills@latest remove --agent claude-code fowler-refactor-skill
+```
+
 ---
 
 ## 사용법
