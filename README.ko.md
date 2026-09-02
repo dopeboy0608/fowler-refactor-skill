@@ -8,6 +8,15 @@
 
 ---
 
+## 사전 요구사항
+
+- **Node.js >= 22.20.0**  
+  `skills` CLI는 Node 22 이상이 필요합니다. `node --version`으로 현재 버전을 확인하세요.  
+  업그레이드가 필요하다면 [nvm](https://github.com/nvm-sh/nvm)을 사용하세요:
+  ```bash
+  nvm install 22 && nvm use 22
+  ```
+
 ## 설치
 
 ```bash

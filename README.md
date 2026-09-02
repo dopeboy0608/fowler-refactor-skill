@@ -8,6 +8,15 @@ It conducts a focused `grill-me`-style interview to understand what you want to 
 
 ---
 
+## Requirements
+
+- **Node.js >= 22.20.0**  
+  The `skills` CLI requires Node 22+. Check your version with `node --version`.  
+  If you need to upgrade, use [nvm](https://github.com/nvm-sh/nvm):
+  ```bash
+  nvm install 22 && nvm use 22
+  ```
+
 ## Install
 
 ```bash
