@@ -19,11 +19,27 @@
 
 ## 설치
 
+### Claude Code
+
+```bash
+npx skills@latest add dopeboy0608/fowler-refactor-skill --agent claude-code
+```
+
+설치 후 Claude Code를 재시작하거나 세션 내에서 `/reload-skills`를 실행해야 스킬이 적용됩니다.
+
+### OpenCode
+
+```bash
+npx skills@latest add dopeboy0608/fowler-refactor-skill --agent opencode
+```
+
+### 지원되는 모든 에이전트에 한 번에 설치
+
 ```bash
 npx skills@latest add dopeboy0608/fowler-refactor-skill
 ```
 
-**Claude Code**, **OpenCode** 및 [skills.sh](https://skills.sh) 형식을 지원하는 모든 에이전트에서 사용할 수 있습니다.
+인터랙티브 설치 화면에서 설치할 에이전트를 직접 선택할 수 있습니다. **Claude Code**, **OpenCode**, **Cursor**, **Codex**, **Windsurf** 및 [skills.sh](https://skills.sh) 형식을 지원하는 모든 에이전트에서 사용 가능합니다.
 
 ## 제거
 

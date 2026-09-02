@@ -19,11 +19,27 @@ It conducts a focused `grill-me`-style interview to understand what you want to 
 
 ## Install
 
+### Claude Code
+
+```bash
+npx skills@latest add dopeboy0608/fowler-refactor-skill --agent claude-code
+```
+
+After installing, restart Claude Code (or run `/reload-skills` in the session) so the skill is picked up.
+
+### OpenCode
+
+```bash
+npx skills@latest add dopeboy0608/fowler-refactor-skill --agent opencode
+```
+
+### All supported agents at once
+
 ```bash
 npx skills@latest add dopeboy0608/fowler-refactor-skill
 ```
 
-Works with **Claude Code**, **OpenCode**, and any agent that supports the [skills.sh](https://skills.sh) format.
+The interactive installer will ask which agent(s) to install to. Works with **Claude Code**, **OpenCode**, **Cursor**, **Codex**, **Windsurf**, and any other agent that supports the [skills.sh](https://skills.sh) format.
 
 ## Uninstall
 
