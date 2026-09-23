@@ -8,7 +8,11 @@
 > npx skills@latest remove fowler-refactor-skill
 > npx skills@latest add dopeboy0608/skills --skill fowler-refactor
 > ```
-> Claude Code users can also install it from the plugin marketplace: `/plugin marketplace add dopeboy0608/skills` then `/plugin install dopeboy0608-skills@dopeboy-skills`.
+> Claude Code users can also install it as a plugin:
+> ```bash
+> claude plugin marketplace add dopeboy0608/skills
+> claude plugin install dopeboy0608-skills
+> ```
 
 > 🇰🇷 [한국어 README](./README.ko.md) | [한국어 패턴 카탈로그](./references/fowler-patterns.ko.md)
 

@@ -8,7 +8,11 @@
 > npx skills@latest remove fowler-refactor-skill
 > npx skills@latest add dopeboy0608/skills --skill fowler-refactor
 > ```
-> Claude Code에서는 플러그인 마켓플레이스로도 설치할 수 있습니다: `/plugin marketplace add dopeboy0608/skills` 실행 후 `/plugin install dopeboy0608-skills@dopeboy-skills`
+> Claude Code에서는 플러그인으로도 설치할 수 있습니다:
+> ```bash
+> claude plugin marketplace add dopeboy0608/skills
+> claude plugin install dopeboy0608-skills
+> ```
 
 **마틴 파울러의 리팩터링 카탈로그**를 코드베이스에 적용하는 AI 에이전트 스킬입니다.
 
