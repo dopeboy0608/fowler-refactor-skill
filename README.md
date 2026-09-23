@@ -1,5 +1,15 @@
 # fowler-refactor-skill
 
+> [!IMPORTANT]
+> **This repository has moved to [dopeboy0608/skills](https://github.com/dopeboy0608/skills).** It is no longer maintained here.
+>
+> The skill is now named `fowler-refactor`, so the command is `/fowler-refactor`. To migrate:
+> ```bash
+> npx skills@latest remove fowler-refactor-skill
+> npx skills@latest add dopeboy0608/skills --skill fowler-refactor
+> ```
+> Claude Code users can also install it from the plugin marketplace: `/plugin marketplace add dopeboy0608/skills` then `/plugin install fowler-refactor@dopeboy-skills`.
+
 > 🇰🇷 [한국어 README](./README.ko.md) | [한국어 패턴 카탈로그](./references/fowler-patterns.ko.md)
 
 An agent skill that applies **Martin Fowler's refactoring catalog** to your codebase.
