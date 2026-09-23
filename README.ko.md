@@ -1,5 +1,15 @@
 # fowler-refactor-skill
 
+> [!IMPORTANT]
+> **이 레포는 [dopeboy0608/skills](https://github.com/dopeboy0608/skills)로 이전되었습니다.** 이곳에서는 더 이상 관리하지 않습니다.
+>
+> 스킬 이름이 `fowler-refactor`로 바뀌어 명령어도 `/fowler-refactor`가 되었습니다. 이전 방법:
+> ```bash
+> npx skills@latest remove fowler-refactor-skill
+> npx skills@latest add dopeboy0608/skills --skill fowler-refactor
+> ```
+> Claude Code에서는 플러그인 마켓플레이스로도 설치할 수 있습니다: `/plugin marketplace add dopeboy0608/skills` 실행 후 `/plugin install fowler-refactor@dopeboy-skills`
+
 **마틴 파울러의 리팩터링 카탈로그**를 코드베이스에 적용하는 AI 에이전트 스킬입니다.
 
 `grill-me` 방식의 집중 인터뷰를 통해 무엇을 개선할지 파악하고, 관련 코드 악취를 파울러의 패턴과 매핑한 뒤 Before/After 계획을 제안합니다. 코드는 사용자의 명시적인 승인이 있을 때만 수정하며, **기존 호출처에 대한 Breaking Change는 절대 발생하지 않습니다.**
